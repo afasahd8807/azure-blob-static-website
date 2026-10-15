@@ -1,0 +1,11 @@
+# Keep secrets, temporary files, and local environment data out of GitHub
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.publishsettings
+.DS_Store
+Thumbs.db
+.vscode/
